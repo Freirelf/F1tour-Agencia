@@ -15,19 +15,45 @@ body {
   display: block;
   max-width: 1265px;
 
-  background-color: #ffffff;
+  background-color: rgba(248, 243, 234, 0.89);
 }
 
 .container{
   max-width: 1000px;
-  background-color: aliceblue;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603));
+
+  margin-left: 11rem;
+  padding: 4rem;
+
+  box-shadow: 4px 1px 4px 2px #00000059;
 }
 
 h1{
   overflow: hidden;
+
+  text-align: center;
+  padding-top: 1em;
+
+  font-family: 'DM Sans', sans-serif;
+  color: #412b2b;
+  text-shadow: 2px 2px 5px #ffffff;
+
 }
 
-form{
+
+.singin{
  margin-left: 10rem;
- margin-top: 10rem;
+ margin-top: 8rem;
+
 }
+
+p{
+  margin-top: 1rem;
+}
+
+#senha{
+  margin-left: -1rem;
+}
+
