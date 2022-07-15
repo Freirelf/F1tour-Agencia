@@ -101,10 +101,13 @@ h5{
 }
 
 #go-enter > a {
-  color: rgb(23, 32, 32);
+  color: rgb(189, 28, 28);
   font-weight: 500;
   font-style: italic;
+  background-color: #ffffff33 ;
+  border-radius: 20px;
   text-decoration: none; 
+  padding: .70rem;
 }
 
 #go-enter > a:hover {
@@ -112,17 +115,18 @@ h5{
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: rgb(23, 32, 32);
+  color: rgb(189, 28, 28);
   font-weight: 500;
   font-style: italic;
-
+  background-color: #ffffff33 ;
+  border-radius: 20px;
+  margin: .51rem;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show >.nav-link {
-  color: rgba(11, 3, 100, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   font-weight: 500;
   font-style: italic;
-
 }
 
 /*---- H2-----*/ 
@@ -196,6 +200,9 @@ box-shadow: 1px 2px 7px 3px rgb(0 0 0 / 51%);
   margin-top: .5rem;
  } .img-footer{
   display: none;
+ } .navbar-light .navbar-nav .nav-link{
+  width: 50%;
+  text-align: center;
  }
 }
 
