@@ -27,7 +27,9 @@ body {
   margin-left: 11rem;
   padding: 4rem;
 
-  box-shadow: 4px 1px 4px 2px #00000059;
+  box-shadow: 3px 4px 13px 4px #00000059;
+  border-radius: 35px 0;
+  
 }
 
 h1{
