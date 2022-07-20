@@ -288,3 +288,25 @@ li.padrao{
   }
 }
 
+@media (max-width: 460px) {
+  #Logo{
+      display: none;
+
+  }.grid-container{
+    background-image: none;
+    background-image: linear-gradient(to bottom, #134850, transparent, rgba(218, 190, 67, 0.603));
+
+  } #form-index{
+    width: 300px;
+
+  } .btn-lg {
+    margin-left: 4rem;
+    transition: .5s;
+
+  } div#card-commit.card{
+  width: 20rem;
+  
+  } li.padrao{
+  font-size: 12px;
+  }
+}
