@@ -84,5 +84,7 @@ p{
       width: 180px;
   } .voltar {
     width: 30px;
+  } .col{
+    padding: 0;
   }
 }
