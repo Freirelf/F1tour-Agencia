@@ -78,3 +78,11 @@ p{
   }
 
 }
+
+@media (max-width: 460px) {
+  img{
+      width: 200px;
+  } .voltar {
+    width: 30px;
+  }
+}
