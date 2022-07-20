@@ -308,5 +308,7 @@ li.padrao{
   
   } li.padrao{
   font-size: 12px;
+  } h2{
+    font-size: larger;
   }
 }
